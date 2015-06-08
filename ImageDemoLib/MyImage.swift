@@ -2,7 +2,8 @@ import UIKit
 
 public class MyImage {
   public class func addImage() -> UIImageView {
-    let image = UIImage(named: "ImageDemoLib/MyCloseButton")
+    let bundle = NSBundle(forClass: self)
+    let image = UIImage(named: "MyCloseButton", inBundle: bundle, compatibleWithTraitCollection: nil)
     return UIImageView(image: image)
   }
 }
