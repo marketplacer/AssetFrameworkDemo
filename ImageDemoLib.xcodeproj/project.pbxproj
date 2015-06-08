@@ -10,6 +10,8 @@
 		7E76068B1B26545F00042F3F /* ImageDemoLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E76068A1B26545F00042F3F /* ImageDemoLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E7606911B26545F00042F3F /* ImageDemoLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7606851B26545F00042F3F /* ImageDemoLib.framework */; };
 		7E7606981B26545F00042F3F /* ImageDemoLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7606971B26545F00042F3F /* ImageDemoLibTests.swift */; };
+		7E7606A21B26549800042F3F /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7606A11B26549800042F3F /* MyImage.swift */; };
+		7E7606A41B2654C900042F3F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7606A31B2654C900042F3F /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		7E7606901B26545F00042F3F /* ImageDemoLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDemoLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7606961B26545F00042F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7606971B26545F00042F3F /* ImageDemoLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemoLibTests.swift; sourceTree = "<group>"; };
+		7E7606A11B26549800042F3F /* MyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		7E7606A31B2654C900042F3F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		7E7606871B26545F00042F3F /* ImageDemoLib */ = {
 			isa = PBXGroup;
 			children = (
+				7E7606A11B26549800042F3F /* MyImage.swift */,
+				7E7606A31B2654C900042F3F /* Media.xcassets */,
 				7E76068A1B26545F00042F3F /* ImageDemoLib.h */,
 				7E7606881B26545F00042F3F /* Supporting Files */,
 			);
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7606A41B2654C900042F3F /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7606A21B26549800042F3F /* MyImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +331,7 @@
 		7E76069C1B26545F00042F3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +341,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7E76069D1B26545F00042F3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
