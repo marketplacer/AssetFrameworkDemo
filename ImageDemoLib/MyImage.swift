@@ -1,9 +1,8 @@
 import UIKit
 
 public class MyImage {
-  public class func addImage() -> UIImageView {
+  public class func getImage() -> UIImage? {
     let bundle = NSBundle(forClass: self)
-    let image = UIImage(named: "MyCloseButton", inBundle: bundle, compatibleWithTraitCollection: nil)
-    return UIImageView(image: image)
+    return UIImage(named: "Ocean", inBundle: bundle, compatibleWithTraitCollection: nil)
   }
 }
