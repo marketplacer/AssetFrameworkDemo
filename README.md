@@ -13,7 +13,7 @@ let image UIImage(named: "Ocean", inBundle: bundle, compatibleWithTraitCollectio
 
 ## Setup
 
-There are two ways you can add this demo frameowrk to your project.
+There are two ways you can add this demo framework to your project.
 
 
 **Setup with Carthage (iOS 8+)**
