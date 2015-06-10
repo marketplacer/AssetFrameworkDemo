@@ -28,6 +28,16 @@ If you are using CocoaPods add this text to your Podfile and run `pod install`.
     pod 'AssetFrameworkDemo', '~> 1.0'
 
 
+## Usage
+
+Here is how you can get the image from the framework in your app:
+
+```
+import ImageDemoLib
+...
+imageView.image = MyImage.getImage()
+```
+
 ### Distributing framework with Carthage
 
 No special setup is needed for distributing your framework with the assets with Carthage. Yay 💥🐰🐰🐰💥
