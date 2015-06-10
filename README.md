@@ -13,8 +13,6 @@ let image UIImage(named: "Ocean", inBundle: bundle, compatibleWithTraitCollectio
 
 ## Setup
 
-## Setup
-
 There are two ways you can add this demo frameowrk to your project.
 
 
