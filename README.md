@@ -25,7 +25,7 @@ Add `github "exchangegroup/AssetFrameworkDemo" ~> 1.0` to your Cartfile and run 
 If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
     use_frameworks!
-    pod 'AssetFrameworkDemo', '~> 1.0'
+    pod 'ImageDemoLib', '~> 1.0'
 
 
 ## Usage
