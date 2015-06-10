@@ -4,7 +4,7 @@ This demo shows how to distribute image assets with a dynamic framework.
 
 The trick is to to provide the bundle of the framework when referencing the asset.
 
-Here an the example code from the framework that show an image with name "Ocean":
+Here an the example code from the framework that shows an image with name "Ocean":
 
 ```Swift
 let bundle = NSBundle(forClass: self)
