@@ -11,6 +11,19 @@ let bundle = NSBundle(forClass: self)
 let image UIImage(named: "Ocean", inBundle: bundle, compatibleWithTraitCollection: nil)
 ```
 
+#### Distributing framework with Carthage
+
+No special setup is needed for distributing your framework with the assets with Carthage. Yay 💥🐰🐰🐰💥
+
+#### Distributing framework with CocoaPods
+
+Specify the assets folder location in `resources` property in the podspec file:
+
+```
+s.resources  = "MyLib/**/*.xcassets"
+```
+
+
 ## Setup
 
 There are two ways you can add this demo framework to your project.
@@ -36,16 +49,4 @@ Here is how you can get the image from the framework in your app:
 import ImageDemoLib
 ...
 imageView.image = MyImage.getImage()
-```
-
-### Distributing framework with Carthage
-
-No special setup is needed for distributing your framework with the assets with Carthage. Yay 💥🐰🐰🐰💥
-
-### Distributing framework with CocoaPods
-
-Specify the assets folder location in `resources` property in the podspec file:
-
-```
-s.resources  = "MyLib/**/*.xcassets"
 ```
