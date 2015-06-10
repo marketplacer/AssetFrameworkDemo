@@ -11,6 +11,24 @@ let bundle = NSBundle(forClass: self)
 let image UIImage(named: "Ocean", inBundle: bundle, compatibleWithTraitCollection: nil)
 ```
 
+## Setup
+
+## Setup
+
+There are two ways you can add this demo frameowrk to your project.
+
+
+**Setup with Carthage (iOS 8+)**
+
+Add `github "exchangegroup/AssetFrameworkDemo" ~> 1.0` to your Cartfile and run `carthage update`.
+
+**Setup with CocoaPods (iOS 8+)**
+
+If you are using CocoaPods add this text to your Podfile and run `pod install`.
+
+    use_frameworks!
+    pod 'AssetFrameworkDemo', '~> 1.0'
+
 
 ### Distributing framework with Carthage
 
