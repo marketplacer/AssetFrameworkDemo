@@ -1,4 +1,4 @@
-# Bundling image assets with a dynamic framework in iOS with Swift
+# Distributing image assets with a dynamic framework in iOS with Swift
 
 This demo shows how to distribute image assets with a dynamic framework.
 
