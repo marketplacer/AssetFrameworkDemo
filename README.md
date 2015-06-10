@@ -1,6 +1,6 @@
-# Bundling image asset with a dynamic framework in iOS with Swift
+# Bundling image assets with a dynamic framework in iOS with Swift
 
-This demo shows how to destribute image assets with a dynamic framework.
+This demo shows how to distribute image assets with a dynamic framework.
 
 The trick is to to provide the bundle of the framework when referencing the asset.
 
