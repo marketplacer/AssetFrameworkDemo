@@ -13,7 +13,9 @@ let image UIImage(named: "Ocean", inBundle: bundle, compatibleWithTraitCollectio
 
 #### Distributing framework with Carthage
 
-No special setup is needed for distributing your framework with the assets with Carthage. Yay 💥🐰🐰🐰💥
+No special setup is needed for distributing your framework with the assets with Carthage.
+
+Yay 💥🐰🐰🐰💥
 
 #### Distributing framework with CocoaPods
 
