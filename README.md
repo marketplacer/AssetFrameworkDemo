@@ -33,7 +33,7 @@ There are two ways you can add this demo framework to your project.
 
 **Setup with Carthage (iOS 8+)**
 
-Add `github "exchangegroup/AssetFrameworkDemo" ~> 1.0` to your Cartfile and run `carthage update`.
+Add `github "marketplacer/AssetFrameworkDemo" ~> 1.0` to your Cartfile and run `carthage update`.
 
 **Setup with CocoaPods (iOS 8+)**
 
